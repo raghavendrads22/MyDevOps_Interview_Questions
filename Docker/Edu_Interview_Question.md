@@ -1,10 +1,11 @@
-### 1. What is Hypervisor?
+### 1.What is Hypervisor?
 
 Ans) A hypervisor is a software that makes virtualization possible. It is also called Virtual Machine Monitor. It divides the host system and allocates the resources to each divided virtual environment. You can basically have multiple OS on a single host system. There are two types of Hypervisors:
 Type 1: It’s also called Native Hypervisor or Bare metal Hypervisor. It runs directly on the underlying host system. It has direct access to your host’s system hardware and hence does not require a base server operating system.
 Type 2: This kind of hypervisor makes use of the underlying host operating system. It’s also called Hosted Hypervisor.
 
---------------------------------------------------------------------------------------------------------------------------------
+===================================================
+
 ### 2. What is virtualization?
 Virtualization is the process of creating a software-based, virtual version of something(compute storage, servers, application, etc.). These virtual versions or environments are created from a single physical hardware system. Virtualization lets you split one system into many different sections which act like separate, distinct individual systems. A software called Hypervisor makes this kind of splitting possible. The virtual environment created by the hypervisor is called Virtual Machine.
 
