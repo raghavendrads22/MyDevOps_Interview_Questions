@@ -158,13 +158,13 @@ The exec command lets you get inside a container and work with it.
 ### 24. How to start, stop and kill a container?
 
   The following command is used to start a docker container:
-
+  ```sh
 $ docker start <container_id>
-
+  ```
 and the following for stopping a running container:
-
+  ```sh
 $ docker stop <container_id>
-
+   ```
 kill a container with the following command:
 
 $ docker kill <container_id>
