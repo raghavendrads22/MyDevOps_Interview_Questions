@@ -22,14 +22,15 @@ Basically, an application that is being developed and deployed is bundled and wr
 ------------------------------------------------------------------------------------------------------------------------------
 ### 4. Difference between virtualization and containerization
 
-In Virtualization, hypervisors provide an entire virtual machine to the guest(including Kernal). Virtual machines are an abstraction of the hardware layer. Each VM is a physical machine.
+In Virtualization, hypervisors provide an entire virtual machine to the guest(including Kernal). Virtual machines are an abstraction of the hardware layer. Each VM is a physical machine. \
 
 Containers provide an isolated environment for running the application. The entire user space is explicitly dedicated to the application. Any changes made inside the container is never reflected on the host or even other containers running on the same host. Containers are an abstraction of the application layer. Each container is a different application.
 
 ----------------------------------------------------------------------------------------------------------------------------------
 ### 5. What is Docker?
 
-Docker is a containerization platform which packages your application and all its dependencies together in the form of containers so as to ensure that your application works seamlessly in any environment, be it development, test or production. Docker containers, wrap a piece of software in a complete filesystem that contains everything needed to run: code, runtime, system tools, system libraries, etc. It wraps basically anything that can be installed on a server. This guarantees that the software will always run the same, regardless of its environment.
+Docker is a containerization platform which packages your application and all its dependencies together in the form of containers so as to ensure that your application works seamlessly in any environment, be it development, test or production. \
+Docker containers, wrap a piece of software in a complete filesystem that contains everything needed to run: code, runtime, system tools, system libraries, etc. It wraps basically anything that can be installed on a server. This guarantees that the software will always run the same, regardless of its environment.
 
 -----------------------------------------------------------------------------------------------------------------------------------
 ### 6. What is a Docker Container?
@@ -49,17 +50,18 @@ Docker images create docker containers. There has to be a registry where these d
 -----------------------------------------------------------------------------------------------------------------------------------------
 ### 9. Explain Docker Architecture?
 
-Docker Architecture consists of a Docker Engine which is a client-server application with three major components:
+Docker Architecture consists of a Docker Engine which is a client-server application with three major components: \
 
-A server which is a type of long-running program called a **daemon process (the docker command)**.
-A **REST API** which specifies interfaces that programs can use to talk to the daemon and instruct it what to do.
-A **command line interface (CLI)** client (the docker command).
+A server which is a type of long-running program called a **daemon process (the docker command)**. \
+A **REST API** which specifies interfaces that programs can use to talk to the daemon and instruct it what to do. \
+A **command line interface (CLI)** client (the docker command). \
 The CLI uses the Docker REST API to control or interact with the Docker daemon through scripting or direct CLI commands. Many other Docker applications use the underlying API and CLI.
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 ### 10. What is a Dockerfile?
 
 Docker can build images automatically by reading the instructions from a file called Dockerfile. A Dockerfile is a text document that contains all the commands a user could call on the command line to assemble an image. Using docker build, users can create an automated build that executes several command-line instructions in succession. 
+
 -----------------------------------------------------------------------------------------------------------------------------------------
 ### 11. Tell us something about Docker Compose.
 
