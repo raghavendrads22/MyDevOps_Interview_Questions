@@ -23,7 +23,6 @@ Basically, an application that is being developed and deployed is bundled and wr
 ### 4. Difference between virtualization and containerization
 
 In Virtualization, hypervisors provide an entire virtual machine to the guest(including Kernal). Virtual machines are an abstraction of the hardware layer. Each VM is a physical machine. \
-
 Containers provide an isolated environment for running the application. The entire user space is explicitly dedicated to the application. Any changes made inside the container is never reflected on the host or even other containers running on the same host. Containers are an abstraction of the application layer. Each container is a different application.
 
 ----------------------------------------------------------------------------------------------------------------------------------
