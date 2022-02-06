@@ -49,7 +49,7 @@ Docker images create docker containers. There has to be a registry where these d
 -----------------------------------------------------------------------------------------------------------------------------------------
 ### 9. Explain Docker Architecture?
 
-Docker Architecture consists of a Docker Engine which is a client-server application with three major components: \
+Docker Architecture consists of a Docker Engine which is a client-server application with three major components: \\
 
 A server which is a type of long-running program called a **daemon process (the docker command)**. \
 A **REST API** which specifies interfaces that programs can use to talk to the daemon and instruct it what to do. \
